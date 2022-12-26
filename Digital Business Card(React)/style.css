@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    margin:0px;
+    background:#23252C;
+    display:flex;
+}
+
+
+#avatar{
+    border:none;
+    width:100%;
+    display:flex;
+      
+}
+
+#Main{
+    flex-direction:colums;
+    align-items:center;
+    text-align:center;
+    margin:40px;
+}
+
+#name{
+    color:white;
+    margin-bottom:0px;
+}
+
+#field{
+    color:#F3BF99;
+    margin:0px auto;
+    font-size:15px;
+}
+
+#web{
+    color:#F5F5F5;
+    margin-top:10px;
+    font-size:10px;
+    font-weight:lighter;
+    
+}
+
+#LinkedIn{
+    background:#5093E2;
+    color:white;
+    border:none;
+    padding: 10px 30px;
+    font-weight:lighter;
+    font-size:15px;
+    border-radius:5px;
+    
+}
+
+#Email{
+    border:none;
+    padding: 10px 40px;
+    font-weight:lighter;
+    font-size:15px;
+    border-radius:5px;
+}
+
+#buttons{
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:50px;
+    
+    
+}
+
+#ELbut{
+    margin-right:5px;
+}
+
+.Topic{
+    display:flex;
+    margin-top:20px;
+    margin-bottom:0px;
+    color:white;
+}
+
+.Context{
+    margin-top:5px;
+    text-align:start;
+    color:#E5E5E5;
+    font-size:12px;;
+    font-weight:lighter;
+    line-height:1.4;
+}
+
+#Footer{
+   
+    background:#161619;
+    display:flex;
+    padding:20px;
+    justify-content:space-around;
+    margin:50px 40px 10px;
+}
+
